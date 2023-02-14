@@ -1,0 +1,2 @@
+#!/bin/bash
+for var in $(compgen -v); do echo "$var"; done for env_var in $(compgen -e); do echo "$env_var"; done for func in $(compgen -A function); do echo "$func"; done
